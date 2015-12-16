@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpP-YQ-XaF">
+                    <rect key="frame" x="8" y="88" width="93" height="30"/>
+                    <state key="normal" title="layer隐试动画"/>
+                    <connections>
+                        <action selector="layerAnimationImplicit:" destination="-1" eventType="touchUpInside" id="uxR-3B-Td9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z70-3C-Q9k">
+                    <rect key="frame" x="16" y="126" width="76" height="30"/>
+                    <state key="normal" title="转场动画"/>
+                    <connections>
+                        <action selector="AnimatedTransitions:" destination="-1" eventType="touchUpInside" id="kU9-1G-U7k"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1u6-j0-ZGK">
+                    <rect key="frame" x="15" y="164" width="78" height="30"/>
+                    <state key="normal" title="layer的属性"/>
+                    <connections>
+                        <action selector="shadowDemo:" destination="-1" eventType="touchUpInside" id="RgU-Bz-Br1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOC-VO-k3R">
+                    <rect key="frame" x="8" y="202" width="109" height="30"/>
+                    <state key="normal" title="CATransform3D"/>
+                    <connections>
+                        <action selector="catransform3DDemo:" destination="-1" eventType="touchUpInside" id="LMu-5d-sKR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mit-aa-JSB">
+                    <rect key="frame" x="15" y="240" width="93" height="30"/>
+                    <state key="normal" title="layer基本属性"/>
+                    <connections>
+                        <action selector="calayerBasicPropety:" destination="-1" eventType="touchUpInside" id="e5f-bz-7eB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldk-Cv-rcF">
+                    <rect key="frame" x="16" y="278" width="85" height="30"/>
+                    <state key="normal" title="几何图形"/>
+                    <connections>
+                        <action selector="geometryDemo:" destination="-1" eventType="touchUpInside" id="jMv-Qe-gzK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buI-Rr-ddX">
+                    <rect key="frame" x="15" y="316" width="85" height="30"/>
+                    <state key="normal" title="组动画"/>
+                    <connections>
+                        <action selector="groupAnimationController:" destination="-1" eventType="touchUpInside" id="pXT-9Y-INK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="65" y="70"/>
+        </view>
+    </objects>
+</document>
